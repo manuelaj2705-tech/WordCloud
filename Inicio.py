@@ -1,6 +1,6 @@
 """
 
-☁️ WordCloud Studio — Nube de Palabras Profesional
+☁️ CloudWords ☁️ — Nube de Palabras Profesional
 Aplicación Streamlit con diseño corporativo limpio
 
 Instalación:
@@ -23,7 +23,7 @@ from wordcloud import WordCloud, STOPWORDS
 # CONFIGURACIÓN
 # ─────────────────────────────────────────────
 st.set_page_config(
-    page_title="WordCloud Studio",
+    page_title="CloudWords ☁️ ",
     page_icon="☁️",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -378,7 +378,7 @@ with st.sidebar:
     st.divider()
 
     # ── Fuente ──
-    st.markdown("### FUENTE DE TEXTO")
+    st.markdown("###  ¿ Quieres ?")
     fuente = st.radio("fuente", ["✍️ Escribir / Pegar", "📂 Subir archivo"],
                       label_visibility="collapsed")
     texto_input = ""
