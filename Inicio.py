@@ -1,11 +1,4 @@
 """
-[theme]
-base="dark"
-primaryColor="#ff4b4b"
-backgroundColor="#0E1117"
-secondaryBackgroundColor="#262730"
-textColor="#ffffff"
- 
 
 ☁️ WordCloud Studio — Nube de Palabras Profesional
 Aplicación Streamlit con diseño corporativo limpio
