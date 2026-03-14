@@ -1,3 +1,24 @@
+import streamlit as st
+
+st.set_page_config(
+    page_title="App",
+    page_icon="🌙",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
+
+st.markdown("""
+<style>
+body {
+    background-color: #0E1117;
+    color: white;
+}
+</style>
+""", unsafe_allow_html=True)
+
+
+
+
 """
 ☁️ WordCloud Studio — Nube de Palabras Profesional
 Aplicación Streamlit con diseño corporativo limpio
